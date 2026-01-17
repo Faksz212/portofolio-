@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faksz-dev Portfolio Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Amine-dev</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="social-nav">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="greeting">Hello, I'm Faksz 👋</p>
+            <h1><span class="typing-text"></span></h1>
+            <p class="subtitle">Expanding skills and discovering new ways to innovate</p>
+            <a href="#" class="btn-main">DOWNLOAD CV</a>
+            
+            <div class="socials">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="img-container">
+                <img src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c239996924b2614b870e44.jpg" alt="Profile Avatar">
+                <div class="icon-float icon-html"><i class="fab fa-html5"></i></div>
+                <div class="icon-float icon-css"><i class="fab fa-css3-alt"></i></div>
+                <div class="icon-float icon-js"><i class="fab fa-js"></i></div>
+                <div class="icon-float icon-react"><i class="fab fa-react"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <h3>I'm Faksz,</h3>
+                <p>a computer science student exploring diverse fields of technology - from software and web development to AI solutions. My goal is to continuously grow my skills.</p>
+                
+                <div class="skills-section">
+                    <h4>Skills & Technologies</h4>
+                    <div class="tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span class="highlight">JavaScript</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Git</span>
+                        <span>UI/UX</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-code">
+                <pre>
+<span class="keyword">const</span> <span class="var">developer</span> = {
+  <span class="key">name</span>: <span class="string">'Amine'</span>,
+  <span class="key">role</span>: <span class="string">'CS Student'</span>,
+  <span class="key">passion</span>: [<span class="string">'Coding'</span>, <span class="string">'AI'</span>],
+  <span class="key">hardWorker</span>: <span class="bool">true</span>
+};
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="card">
+                <div class="card-img" style="background-color: #222;"></div> <div class="card-content">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A complete platform with shopping cart & payment.</p>
+                    <div class="card-actions">
+                        <button>Live Demo</button>
+                        <button>GitHub</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-color: #333;"></div>
+                <div class="card-content">
+                    <h3>Portfolio Website</h3>
+                    <p>An interactive portfolio website to showcase work.</p>
+                    <div class="card-actions">
+                        <button>Live Demo</button>
+                        <button>GitHub</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-color: #444;"></div>
+                <div class="card-content">
+                    <h3>Task App</h3>
+                    <p>Task management application with drag-and-drop.</p>
+                    <div class="card-actions">
+                        <button>Live Demo</button>
+                        <button>GitHub</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>Let's collaborate! I am always open to discussing exciting projects.</p>
+                <div class="info-item"><i class="fas fa-envelope"></i> maulidanfaka@gmail.com</div>
+                <div class="info-item"><i class="fas fa-phone"></i> +213 0011223344</div>
+                <div class="info-item"><i class="fas fa-map-marker-alt"></i> Algeria</div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit" class="btn-main">SEND MESSAGE</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
